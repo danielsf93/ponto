@@ -19,6 +19,15 @@ require_once __DIR__ . '/templates/header.php';
       
         
         <?php if (isset($_SESSION['usuario'])): ?>
+            
+            <?php if ($_SESSION['usuario'] === 'admin'): ?>
+                <hr>
+                <p><a href="admin/admin.php">Administração</a></p>
+
+código aqui
+                <hr>
+            <?php endif; ?>
+            
             <p><a href="/ponto/user/bater_ponto.php">Bater ponto</a></p>
         <p><a href="/ponto/user/ver_meus_pontos.php">Ver Meus Pontos</a></p>
         <p><a href="/ponto/user/pedir_revisao.php">Pedir Revisão</a></p>
@@ -26,17 +35,7 @@ require_once __DIR__ . '/templates/header.php';
             <form action="/ponto/user/logout.php" method="POST">
                 <button type="submit">Sair</button>
             </form>
-            <?php if ($_SESSION['usuario'] === 'admin'): ?>
-                <p><a href="admin/admin.php">Administração</a></p>
-
-
-
-
-código aqui
-
-
-
-            <?php endif; ?>
+            
         <?php else: ?>
             <h3>Login</h3>
             <form action="pontoec.php" method="POST">
