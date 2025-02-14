@@ -96,7 +96,7 @@ try {
     <canvas id="canvas" width="320" height="240" style="display:none;"></canvas>
 
     <br>
-    <a href="index.php">Voltar</a>
+    <a href="/ponto/index.php">Voltar</a>
   </div>
 
   <!-- Script JavaScript para capturar a foto -->

@@ -50,6 +50,6 @@ try {
         <button type="submit">Solicitar Redefinição</button>
     </form>
     <br>
-    <a href="index.php">Voltar</a>
+    <a href="/ponto/index.php">Voltar</a>
 </body>
 </html>

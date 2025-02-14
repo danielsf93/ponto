@@ -1,4 +1,8 @@
-<?php session_start(); ?>
+<?php session_start(); 
+// Inclui o cabeçalho
+require_once __DIR__ . '/templates/header.php';
+
+?>
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -24,6 +28,14 @@
             </form>
             <?php if ($_SESSION['usuario'] === 'admin'): ?>
                 <p><a href="admin/admin.php">Administração</a></p>
+
+
+
+
+código aqui
+
+
+
             <?php endif; ?>
         <?php else: ?>
             <h3>Login</h3>

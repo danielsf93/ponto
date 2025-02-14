@@ -164,7 +164,7 @@ try {
         <?php endif; ?>
 
         <br>
-        <a href="ponto/admin/index.php">Voltar</a>
+        <a href="/ponto/index.php">Voltar</a>
     </div>
 
     <!-- Modal para exibir a foto com informações -->
