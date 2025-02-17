@@ -64,9 +64,9 @@ session_start();
         <a href="/ponto/user/pedir_revisao.php">Pedir Revisão</a>
         <a href="/ponto/user/trocar_senha.php">Trocar senha</a>
         <a href="/ponto/user/logout.php">Sair</a>
-
+<hr>
         <?php if ($_SESSION['usuario'] === 'admin'): ?>
-            <br><br><a href="/ponto/admin/admin.php">Administração</a>
+            <a href="/ponto/admin/admin.php">Administração</a>
             <a href="/ponto/admin/listar_pontos.php">Listar Pontos</a>
             <a href="/ponto/admin/pedidos_da_equipe.php">Pedidos de Alteração</a>
             <a href="/ponto/admin/gerar_relatorio.php">Gerar Relatório</a>
