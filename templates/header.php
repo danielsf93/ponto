@@ -59,6 +59,7 @@ session_start();
 
 <?php if (isset($_SESSION['usuario'])): ?>
     <nav class="menu">
+        <a href="/ponto/index.php">INÍCIO</a>
         <a href="/ponto/user/bater_ponto.php">Bater ponto</a>
         <a href="/ponto/user/ver_meus_pontos.php">Ver Meus Pontos</a>
         <a href="/ponto/user/pedir_revisao.php">Pedir Revisão</a>

@@ -1,5 +1,7 @@
 <?php
 session_start();
+// Inclui o cabeçalho
+require_once( dirname(__FILE__) . '/../templates/header.php' );
 
 require_once( dirname(__FILE__) . '/../wp-load.php' );
 

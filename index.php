@@ -68,7 +68,7 @@ try {
     die("Erro na conexão com o banco de dados: " . $e->getMessage());
 }
 ?>
-
+    
     <div class="container">
         <h2>Entradas de Hoje</h2>
         <h3>Data e Hora Atual: <?php echo date("d/m/Y H:i:s"); ?></h3>
@@ -113,13 +113,7 @@ try {
                 <hr>
             <?php endif; ?>
             
-            <p><a href="/ponto/user/bater_ponto.php">Bater ponto</a></p>
-        <p><a href="/ponto/user/ver_meus_pontos.php">Ver Meus Pontos</a></p>
-        <p><a href="/ponto/user/pedir_revisao.php">Pedir Revisão</a></p>
-            <p><a href="trocar_senha.php">Trocar senha</a></p>
-            <form action="/ponto/user/logout.php" method="POST">
-                <button type="submit">Sair</button>
-            </form>
+         
             
         <?php else: ?>
             <h3>Login</h3>

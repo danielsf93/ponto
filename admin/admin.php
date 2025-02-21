@@ -1,5 +1,7 @@
 <?php
 session_start();
+// Inclui o cabeçalho
+require_once( dirname(__FILE__) . '/../templates/header.php' );
 
 // Inclua o ambiente do WordPress para carregar as constantes de configuração.
 // Se o arquivo admin.php estiver na raiz do WordPress, você pode usar:
